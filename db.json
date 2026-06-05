@@ -4,141 +4,50 @@
       "id": "1",
       "name": "Aloe",
       "image": "./images/aloe.jpg",
-      "price": 15.99
+      "price": 15.99,
+      "isSoldOut": false
     },
     {
       "id": "2",
       "name": "ZZ Plant",
       "image": "./images/zz-plant.jpg",
-      "price": 25.98
+      "price": 25.98,
+      "isSoldOut": false
     },
     {
       "id": "3",
       "name": "Pilea peperomioides",
       "image": "./images/pilea.jpg",
-      "price": 5.99
+      "price": 5.99,
+      "isSoldOut": false
     },
     {
       "id": "4",
       "name": "Pothos",
       "image": "./images/pothos.jpg",
-      "price": 12.11
+      "price": 12.11,
+      "isSoldOut": false
     },
     {
       "id": "5",
       "name": "Jade",
       "image": "./images/jade.jpg",
-      "price": 10.37
+      "price": 10.37,
+      "isSoldOut": false
     },
     {
       "id": "6",
       "name": "Monstera Deliciosa",
       "image": "./images/monstera.jpg",
-      "price": 25.99
+      "price": 25.99,
+      "isSoldOut": false
     },
     {
       "id": "7",
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
-      "price": 55
-    },
-    {
-      "id": "89c1",
-      "name": "Aloe",
-      "image": "",
-      "price": "",
-      "inStock": true
-    },
-    {
-      "id": "71e4",
-      "name": "",
-      "image": "",
-      "price": "",
-      "inStock": true
-    },
-    {
-      "id": "001b",
-      "name": "",
-      "image": "",
-      "price": "",
-      "inStock": true
-    },
-    {
-      "id": "5cac",
-      "name": "",
-      "image": "",
-      "price": "",
-      "inStock": true
-    },
-    {
-      "id": "624c",
-      "name": "",
-      "image": "",
-      "price": "",
-      "inStock": true
-    },
-    {
-      "id": "dcc3",
-      "name": "",
-      "image": "",
-      "price": "",
-      "inStock": true
-    },
-    {
-      "id": "bb8e",
-      "name": "",
-      "image": "",
-      "price": "",
-      "inStock": true
-    },
-    {
-      "id": "5724",
-      "name": "",
-      "image": "",
-      "price": "",
-      "inStock": true
-    },
-    {
-      "id": "e028",
-      "name": "",
-      "image": "",
-      "price": "",
-      "inStock": true
-    },
-    {
-      "id": "883c",
-      "name": "",
-      "image": "",
-      "price": "",
-      "inStock": true
-    },
-    {
-      "id": "a54c",
-      "name": "",
-      "image": "",
-      "price": "",
-      "inStock": true
-    },
-    {
-      "id": "b16b",
-      "name": "",
-      "image": "",
-      "price": "",
-      "inStock": true
-    },
-    {
-      "id": "bee4",
-      "name": "",
-      "image": "",
-      "price": "",
-      "inStock": true
-    },
-    {
-      "id": "3ddf",
-      "name": "",
-      "image": "",
-      "price": "",
-      "inStock": true
+      "price": 55,
+      "isSoldOut": false
     }
   ]
 }
