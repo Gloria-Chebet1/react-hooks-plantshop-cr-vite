@@ -12,6 +12,7 @@ function NewPlantForm({ onAddPlant }) {
       name,
       image,
       price,
+      inStock: true, // ✅ important fix
     };
 
     fetch("http://localhost:6001/plants", {

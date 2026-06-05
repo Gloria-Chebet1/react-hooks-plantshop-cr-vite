@@ -4,7 +4,7 @@ function PlantCard({ plant }) {
   const [inStock, setInStock] = useState(true);
 
   function handleClick() {
-    setInStock(false);
+    setInStock((prev) => !prev);
   }
 
   return (
@@ -13,13 +13,12 @@ function PlantCard({ plant }) {
       <h4>{plant.name}</h4>
       <p>Price: {plant.price}</p>
 
-      {inStock ? (
-        <button className="primary" onClick={handleClick}>
-          In Stock
-        </button>
-      ) : (
-        <button onClick={handleClick}>Out of Stock</button>
-      )}
+      <button
+        className={inStock ? "primary" : ""}
+        onClick={handleClick}
+      >
+        {inStock ? "In Stock" : "Out of Stock"}
+      </button>
     </li>
   );
 }
