@@ -6,8 +6,8 @@ function Search({ search, onSearchChange }) {
       <label htmlFor="search">Search Plants:</label>
 
       <input
-        type="text"
         id="search"
+        type="text"
         placeholder="Type a name to search..."
         value={search}
         onChange={(e) => onSearchChange(e.target.value)}

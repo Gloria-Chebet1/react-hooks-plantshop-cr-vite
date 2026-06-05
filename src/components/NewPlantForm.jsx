@@ -12,7 +12,6 @@ function NewPlantForm({ onAddPlant }) {
       name,
       image,
       price,
-      inStock: true, // ✅ important fix
     };
 
     fetch("http://localhost:6001/plants", {
@@ -23,7 +22,7 @@ function NewPlantForm({ onAddPlant }) {
       body: JSON.stringify(newPlant),
     })
       .then((res) => res.json())
-      .then((plant) => onAddPlant(plant));
+      .then((data) => onAddPlant(data));
 
     setName("");
     setImage("");
@@ -36,7 +35,6 @@ function NewPlantForm({ onAddPlant }) {
 
       <form onSubmit={handleSubmit}>
         <input
-          type="text"
           name="name"
           placeholder="Plant name"
           value={name}
@@ -44,7 +42,6 @@ function NewPlantForm({ onAddPlant }) {
         />
 
         <input
-          type="text"
           name="image"
           placeholder="Image URL"
           value={image}
@@ -52,9 +49,7 @@ function NewPlantForm({ onAddPlant }) {
         />
 
         <input
-          type="number"
           name="price"
-          step="0.01"
           placeholder="Price"
           value={price}
           onChange={(e) => setPrice(e.target.value)}
